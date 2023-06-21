@@ -1,0 +1,192 @@
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:8080
+DEBUG:urllib3.connectionpool:http://localhost:8080 "POST /predictions/drawn_humanoid_detector HTTP/1.1" 200 192
+INFO:root:Detected 1 humanoids in image. Using detection with highest score 0.9965305924415588.
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:8080
+DEBUG:urllib3.connectionpool:http://localhost:8080 "POST /predictions/drawn_humanoid_detector HTTP/1.1" 200 192
+INFO:root:Detected 1 humanoids in image. Using detection with highest score 0.9965305924415588.
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:8080
+DEBUG:urllib3.connectionpool:http://localhost:8080 "POST /predictions/drawn_humanoid_pose_estimator HTTP/1.1" 200 1675
+INFO:root:Using user-specified mvc config file located at /home/ajay/Animations/AnimatedDrawings/examples/garlic_out/mvc_cfg.yaml
+DEBUG:OpenGL.platform.ctypesloader:Loaded libOSMesa.so => libOSMesa.so.8 <CDLL 'libOSMesa.so.8', handle 21ab130 at 0x7f3014313f70>
+INFO:OpenGL.acceleratesupport:No OpenGL_accelerate module loaded: No module named 'OpenGL_accelerate'
+DEBUG:shapely.geos:Found GEOS DLL: <CDLL '/home/ajay/anaconda3/envs/animated_drawings/lib/python3.8/site-packages/Shapely.libs/libgeos_c-c8ec7514.so.1.16.1', handle 2864570 at 0x7f2fc28c2370>, using it.
+INFO:root:OpenGL Version: 4.6 (Core Profile) Mesa 22.2.5
+INFO:root:GLSL: 4.60
+INFO:root:Renderer: RENOIR (renoir, LLVM 15.0.6, DRM 3.47, 5.19.0-41-generic)
+INFO:root:2 separate polygons found in mask. Using largest.
+INFO:root:Encountered values close to zero in vector norm. Replacing with 1e-05
+INFO:root:char_runtime_check failed, removing neck from retargeter :('neck', 'above', 'right_shoulder', 'left_shoulder')
+INFO:root:Starting joint -> mask pixel BFS
+INFO:root:Finished joint -> mask pixel BFS in 2.833418607711792 seconds
+INFO:root:Using BVH file located at /home/ajay/Animations/AnimatedDrawings/examples/bvh/fair1/dab.bvh
+INFO:root:Upper Limbs projection_method is pca. Running PCA on ['RightShoulder', 'RightArm', 'RightForeArm', 'RightHand', 'RightHandEnd', 'LeftShoulder', 'LeftArm', 'LeftForeArm', 'LeftHand', 'LeftHandEnd']
+INFO:root:PCA complete. Upper Limbs using [1. 0. 0.]
+INFO:root:Lower Limbs projection_method is pca. Running PCA on ['RightUpLeg', 'RightLeg', 'RightFoot', 'RightToeBase', 'LeftUpLeg', 'LeftLeg', 'LeftFoot', 'LeftToeBase']
+INFO:root:PCA complete. Lower Limbs using [1. 0. 0.]
+INFO:root:Trunk projection_method is frontal. Using [1. 0. 0.]
+INFO:root: error finding projection plane for joint_name: End Site
+INFO:root: error finding projection plane for joint_name: End Site
+INFO:root: error finding projection plane for joint_name: RightHandThumb1
+INFO:root: error finding projection plane for joint_name: End Site
+INFO:root: error finding projection plane for joint_name: End Site
+INFO:root: error finding projection plane for joint_name: LeftHandThumb1
+INFO:root: error finding projection plane for joint_name: End Site
+INFO:root: error finding projection plane for joint_name: End Site
+INFO:root: error finding projection plane for joint_name: End Site
+INFO:root:tA1xA1 is singular. perturbing...
+INFO:root:tA2xA2 is singular. perturbing...
+INFO:root: Writing video to: /home/ajay/Animations/AnimatedDrawings/examples/garlic_out/video.gif
+INFO:root:invalid frame_idx (339), replacing with last frame 338
+INFO:root:Rendered 339 frames in 18.54841661453247 seconds.
+INFO:root:VideoWriter will write to /home/ajay/Animations/AnimatedDrawings/examples/garlic_out/video.gif
+INFO:root:Wrote video to file in in 2.3299953937530518 seconds.
+INFO:root:Using user-specified mvc config file located at /home/ajay/Animations/AnimatedDrawings/examples/garlic_out/mvc_cfg.yaml
+DEBUG:OpenGL.platform.ctypesloader:Loaded libEGL.so => libEGL.so.1 <CDLL 'libEGL.so.1', handle 1ebf960 at 0x7f569cc6cee0>
+INFO:OpenGL.acceleratesupport:No OpenGL_accelerate module loaded: No module named 'OpenGL_accelerate'
+DEBUG:OpenGL.platform.ctypesloader:Loaded libOpenGL.so => libOpenGL.so.0 <CDLL 'libOpenGL.so.0', handle 1ee6380 at 0x7f5694933160>
+DEBUG:shapely.geos:Found GEOS DLL: <CDLL '/home/ajay/anaconda3/envs/animated_drawings/lib/python3.8/site-packages/Shapely.libs/libgeos_c-c8ec7514.so.1.16.1', handle 2c0bdf0 at 0x7f5642fe1cd0>, using it.
+INFO:root:OpenGL Version: 4.6 (Core Profile) Mesa 22.2.5
+INFO:root:GLSL: 4.60
+INFO:root:Renderer: RENOIR (renoir, LLVM 15.0.6, DRM 3.47, 5.19.0-41-generic)
+INFO:root:2 separate polygons found in mask. Using largest.
+INFO:root:Encountered values close to zero in vector norm. Replacing with 1e-05
+INFO:root:char_runtime_check failed, removing neck from retargeter :('neck', 'above', 'right_shoulder', 'left_shoulder')
+INFO:root:Starting joint -> mask pixel BFS
+INFO:root:Finished joint -> mask pixel BFS in 2.5483105182647705 seconds
+INFO:root:Using BVH file located at /home/ajay/Animations/AnimatedDrawings/examples/bvh/fair1/dab.bvh
+INFO:root:Upper Limbs projection_method is pca. Running PCA on ['RightShoulder', 'RightArm', 'RightForeArm', 'RightHand', 'RightHandEnd', 'LeftShoulder', 'LeftArm', 'LeftForeArm', 'LeftHand', 'LeftHandEnd']
+INFO:root:PCA complete. Upper Limbs using [1. 0. 0.]
+INFO:root:Lower Limbs projection_method is pca. Running PCA on ['RightUpLeg', 'RightLeg', 'RightFoot', 'RightToeBase', 'LeftUpLeg', 'LeftLeg', 'LeftFoot', 'LeftToeBase']
+INFO:root:PCA complete. Lower Limbs using [1. 0. 0.]
+INFO:root:Trunk projection_method is frontal. Using [1. 0. 0.]
+INFO:root: error finding projection plane for joint_name: End Site
+INFO:root: error finding projection plane for joint_name: End Site
+INFO:root: error finding projection plane for joint_name: RightHandThumb1
+INFO:root: error finding projection plane for joint_name: End Site
+INFO:root: error finding projection plane for joint_name: End Site
+INFO:root: error finding projection plane for joint_name: LeftHandThumb1
+INFO:root: error finding projection plane for joint_name: End Site
+INFO:root: error finding projection plane for joint_name: End Site
+INFO:root: error finding projection plane for joint_name: End Site
+INFO:root:tA1xA1 is singular. perturbing...
+INFO:root:tA2xA2 is singular. perturbing...
+INFO:root: Writing video to: /home/ajay/Animations/AnimatedDrawings/examples/garlic_out/video.gif
+INFO:root:invalid frame_idx (339), replacing with last frame 338
+INFO:root:Rendered 339 frames in 13.55685019493103 seconds.
+INFO:root:VideoWriter will write to /home/ajay/Animations/AnimatedDrawings/examples/garlic_out/video.gif
+INFO:root:Wrote video to file in in 2.173011302947998 seconds.
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:8080
+INFO:root:Using user-specified mvc config file located at /home/ajay/Animations/AnimatedDrawings/examples/garlic_out/mvc_cfg.yaml
+DEBUG:OpenGL.platform.ctypesloader:Loaded libEGL.so => libEGL.so.1 <CDLL 'libEGL.so.1', handle 1cd8960 at 0x7f8fefc1bfd0>
+INFO:OpenGL.acceleratesupport:No OpenGL_accelerate module loaded: No module named 'OpenGL_accelerate'
+DEBUG:OpenGL.platform.ctypesloader:Loaded libOpenGL.so => libOpenGL.so.0 <CDLL 'libOpenGL.so.0', handle 1cff380 at 0x7f8fe8bf4160>
+DEBUG:shapely.geos:Found GEOS DLL: <CDLL '/home/ajay/anaconda3/envs/animated_drawings/lib/python3.8/site-packages/Shapely.libs/libgeos_c-c8ec7514.so.1.16.1', handle 2a25270 at 0x7f8f95f9bcd0>, using it.
+INFO:root:OpenGL Version: 4.6 (Core Profile) Mesa 22.2.5
+INFO:root:GLSL: 4.60
+INFO:root:Renderer: RENOIR (renoir, LLVM 15.0.6, DRM 3.47, 5.19.0-41-generic)
+INFO:root:2 separate polygons found in mask. Using largest.
+INFO:root:Encountered values close to zero in vector norm. Replacing with 1e-05
+INFO:root:char_runtime_check failed, removing neck from retargeter :('neck', 'above', 'right_shoulder', 'left_shoulder')
+INFO:root:Starting joint -> mask pixel BFS
+INFO:root:Finished joint -> mask pixel BFS in 2.460219144821167 seconds
+INFO:root:Using BVH file located at /home/ajay/Animations/AnimatedDrawings/examples/bvh/fair1/dab.bvh
+INFO:root:Upper Limbs projection_method is pca. Running PCA on ['RightShoulder', 'RightArm', 'RightForeArm', 'RightHand', 'RightHandEnd', 'LeftShoulder', 'LeftArm', 'LeftForeArm', 'LeftHand', 'LeftHandEnd']
+INFO:root:PCA complete. Upper Limbs using [1. 0. 0.]
+INFO:root:Lower Limbs projection_method is pca. Running PCA on ['RightUpLeg', 'RightLeg', 'RightFoot', 'RightToeBase', 'LeftUpLeg', 'LeftLeg', 'LeftFoot', 'LeftToeBase']
+INFO:root:PCA complete. Lower Limbs using [1. 0. 0.]
+INFO:root:Trunk projection_method is frontal. Using [1. 0. 0.]
+INFO:root: error finding projection plane for joint_name: End Site
+INFO:root: error finding projection plane for joint_name: End Site
+INFO:root: error finding projection plane for joint_name: RightHandThumb1
+INFO:root: error finding projection plane for joint_name: End Site
+INFO:root: error finding projection plane for joint_name: End Site
+INFO:root: error finding projection plane for joint_name: LeftHandThumb1
+INFO:root: error finding projection plane for joint_name: End Site
+INFO:root: error finding projection plane for joint_name: End Site
+INFO:root: error finding projection plane for joint_name: End Site
+INFO:root:tA1xA1 is singular. perturbing...
+INFO:root:tA2xA2 is singular. perturbing...
+INFO:root: Writing video to: /home/ajay/Animations/AnimatedDrawings/examples/garlic_out/video.gif
+INFO:root:invalid frame_idx (339), replacing with last frame 338
+INFO:root:Rendered 339 frames in 13.062454462051392 seconds.
+INFO:root:VideoWriter will write to /home/ajay/Animations/AnimatedDrawings/examples/garlic_out/video.gif
+INFO:root:Wrote video to file in in 2.140329122543335 seconds.
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:8080
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:8080
+DEBUG:urllib3.connectionpool:http://localhost:8080 "POST /predictions/drawn_humanoid_detector HTTP/1.1" 200 195
+INFO:root:Detected 1 humanoids in image. Using detection with highest score 0.9976098537445068.
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:8080
+DEBUG:urllib3.connectionpool:http://localhost:8080 "POST /predictions/drawn_humanoid_pose_estimator HTTP/1.1" 200 1650
+INFO:root:Using user-specified mvc config file located at /home/ajay/Animations/AnimatedDrawings/examples/garlic_out/mvc_cfg.yaml
+DEBUG:OpenGL.platform.ctypesloader:Loaded libEGL.so => libEGL.so.1 <CDLL 'libEGL.so.1', handle 3876f90 at 0x7fd3277e9340>
+INFO:OpenGL.acceleratesupport:No OpenGL_accelerate module loaded: No module named 'OpenGL_accelerate'
+DEBUG:OpenGL.platform.ctypesloader:Loaded libOpenGL.so => libOpenGL.so.0 <CDLL 'libOpenGL.so.0', handle 38a2c10 at 0x7fd3276e1a00>
+DEBUG:shapely.geos:Found GEOS DLL: <CDLL '/home/ajay/anaconda3/envs/animated_drawings/lib/python3.8/site-packages/Shapely.libs/libgeos_c-c8ec7514.so.1.16.1', handle 3c9c790 at 0x7fd2bc2531f0>, using it.
+INFO:root:OpenGL Version: 4.6 (Core Profile) Mesa 22.2.5
+INFO:root:GLSL: 4.60
+INFO:root:Renderer: RENOIR (renoir, LLVM 15.0.6, DRM 3.47, 5.19.0-41-generic)
+INFO:root:Encountered values close to zero in vector norm. Replacing with 1e-05
+INFO:root:Starting joint -> mask pixel BFS
+INFO:root:Finished joint -> mask pixel BFS in 0.9016780853271484 seconds
+INFO:root:Using BVH file located at /home/ajay/Animations/AnimatedDrawings/examples/bvh/fair1/dab.bvh
+INFO:root:Upper Limbs projection_method is pca. Running PCA on ['RightShoulder', 'RightArm', 'RightForeArm', 'RightHand', 'RightHandEnd', 'LeftShoulder', 'LeftArm', 'LeftForeArm', 'LeftHand', 'LeftHandEnd']
+INFO:root:PCA complete. Upper Limbs using [1. 0. 0.]
+INFO:root:Lower Limbs projection_method is pca. Running PCA on ['RightUpLeg', 'RightLeg', 'RightFoot', 'RightToeBase', 'LeftUpLeg', 'LeftLeg', 'LeftFoot', 'LeftToeBase']
+INFO:root:PCA complete. Lower Limbs using [1. 0. 0.]
+INFO:root:Trunk projection_method is frontal. Using [1. 0. 0.]
+INFO:root: error finding projection plane for joint_name: End Site
+INFO:root: error finding projection plane for joint_name: End Site
+INFO:root: error finding projection plane for joint_name: RightHandThumb1
+INFO:root: error finding projection plane for joint_name: End Site
+INFO:root: error finding projection plane for joint_name: End Site
+INFO:root: error finding projection plane for joint_name: LeftHandThumb1
+INFO:root: error finding projection plane for joint_name: End Site
+INFO:root: error finding projection plane for joint_name: End Site
+INFO:root: error finding projection plane for joint_name: End Site
+WARNING:root:point [[0.31808278 0.05664487]] not inside or on edge of any triangle in mesh. Skipping it
+INFO:root:tA1xA1 is singular. perturbing...
+INFO:root:tA2xA2 is singular. perturbing...
+INFO:root: Writing video to: /home/ajay/Animations/AnimatedDrawings/examples/garlic_out/video.gif
+INFO:root:invalid frame_idx (339), replacing with last frame 338
+INFO:root:Rendered 339 frames in 7.557483673095703 seconds.
+INFO:root:VideoWriter will write to /home/ajay/Animations/AnimatedDrawings/examples/garlic_out/video.gif
+INFO:root:Wrote video to file in in 2.1313376426696777 seconds.
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:8080
+DEBUG:urllib3.connectionpool:http://localhost:8080 "POST /predictions/drawn_humanoid_detector HTTP/1.1" 200 195
+INFO:root:Detected 1 humanoids in image. Using detection with highest score 0.9976098537445068.
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:8080
+DEBUG:urllib3.connectionpool:http://localhost:8080 "POST /predictions/drawn_humanoid_pose_estimator HTTP/1.1" 200 1650
+INFO:root:Using user-specified mvc config file located at /home/ajay/Animations/AnimatedDrawings/examples/garlic_out/mvc_cfg.yaml
+DEBUG:OpenGL.platform.ctypesloader:Loaded libEGL.so => libEGL.so.1 <CDLL 'libEGL.so.1', handle 2441eb0 at 0x7fb17bb54340>
+INFO:OpenGL.acceleratesupport:No OpenGL_accelerate module loaded: No module named 'OpenGL_accelerate'
+DEBUG:OpenGL.platform.ctypesloader:Loaded libOpenGL.so => libOpenGL.so.0 <CDLL 'libOpenGL.so.0', handle 2461bd0 at 0x7fb17ba3ea60>
+DEBUG:shapely.geos:Found GEOS DLL: <CDLL '/home/ajay/anaconda3/envs/animated_drawings/lib/python3.8/site-packages/Shapely.libs/libgeos_c-c8ec7514.so.1.16.1', handle 2869410 at 0x7fb101fcf250>, using it.
+INFO:root:OpenGL Version: 4.6 (Core Profile) Mesa 22.2.5
+INFO:root:GLSL: 4.60
+INFO:root:Renderer: RENOIR (renoir, LLVM 15.0.6, DRM 3.47, 5.19.0-41-generic)
+INFO:root:Encountered values close to zero in vector norm. Replacing with 1e-05
+INFO:root:Starting joint -> mask pixel BFS
+INFO:root:Finished joint -> mask pixel BFS in 0.9286255836486816 seconds
+INFO:root:Using BVH file located at /home/ajay/Animations/AnimatedDrawings/examples/bvh/fair1/dab.bvh
+INFO:root:Upper Limbs projection_method is pca. Running PCA on ['RightShoulder', 'RightArm', 'RightForeArm', 'RightHand', 'RightHandEnd', 'LeftShoulder', 'LeftArm', 'LeftForeArm', 'LeftHand', 'LeftHandEnd']
+INFO:root:PCA complete. Upper Limbs using [1. 0. 0.]
+INFO:root:Lower Limbs projection_method is pca. Running PCA on ['RightUpLeg', 'RightLeg', 'RightFoot', 'RightToeBase', 'LeftUpLeg', 'LeftLeg', 'LeftFoot', 'LeftToeBase']
+INFO:root:PCA complete. Lower Limbs using [1. 0. 0.]
+INFO:root:Trunk projection_method is frontal. Using [1. 0. 0.]
+INFO:root: error finding projection plane for joint_name: End Site
+INFO:root: error finding projection plane for joint_name: End Site
+INFO:root: error finding projection plane for joint_name: RightHandThumb1
+INFO:root: error finding projection plane for joint_name: End Site
+INFO:root: error finding projection plane for joint_name: End Site
+INFO:root: error finding projection plane for joint_name: LeftHandThumb1
+INFO:root: error finding projection plane for joint_name: End Site
+INFO:root: error finding projection plane for joint_name: End Site
+INFO:root: error finding projection plane for joint_name: End Site
+WARNING:root:point [[0.31808278 0.05664487]] not inside or on edge of any triangle in mesh. Skipping it
+INFO:root:tA1xA1 is singular. perturbing...
+INFO:root:tA2xA2 is singular. perturbing...
+INFO:root: Writing video to: /home/ajay/Animations/AnimatedDrawings/examples/garlic_out/video.gif
+INFO:root:invalid frame_idx (339), replacing with last frame 338
+INFO:root:Rendered 339 frames in 7.916314363479614 seconds.
+INFO:root:VideoWriter will write to /home/ajay/Animations/AnimatedDrawings/examples/garlic_out/video.gif
+INFO:root:Wrote video to file in in 2.2967543601989746 seconds.
