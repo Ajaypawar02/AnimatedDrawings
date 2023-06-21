@@ -39,7 +39,7 @@ app.add_middleware(
 def read_root():
     return {"response": "Service is ready to run"}
 
-async def create_image(api_params : Dict):
+def create_image(api_params : Dict):
     
     data = api_params
     motion = data['motion']
@@ -518,7 +518,7 @@ async def create_image(api_params : Dict):
 @app.post("/Animation")
 async def Animation(request: Request, payload : APIPARAMTERS):
     api_params = json.loads(payload.json())
-    response = await create_image(api_params=api_params)
+    response =  create_image(api_params=api_params)
 
     status , message, url = response["status"], response["message"], response["url"]
 
